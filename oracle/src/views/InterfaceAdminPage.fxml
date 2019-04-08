@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+   <children>
+      <Label layoutX="258.0" layoutY="39.0" prefHeight="25.0" prefWidth="121.0" text="Interface Admin" AnchorPane.bottomAnchor="544.0" AnchorPane.leftAnchor="258.0" AnchorPane.rightAnchor="221.0" AnchorPane.topAnchor="39.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="109.0" layoutY="159.0" promptText="User Id" AnchorPane.bottomAnchor="424.0" AnchorPane.leftAnchor="109.0" AnchorPane.rightAnchor="342.0" AnchorPane.topAnchor="159.0" />
+      <TextField layoutX="379.0" layoutY="159.0" promptText="Username" AnchorPane.bottomAnchor="424.0" AnchorPane.leftAnchor="379.0" AnchorPane.rightAnchor="72.0" AnchorPane.topAnchor="159.0" />
+      <TextArea layoutX="109.0" layoutY="264.0" prefHeight="200.0" prefWidth="392.0" promptText="Message Body" />
+   </children>
+</AnchorPane>

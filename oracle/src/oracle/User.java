@@ -2,6 +2,7 @@ package oracle;
 
 public class User {
 private int IdUser;
+private String password;
 private String nom,prenom,email,job;
 private boolean isBlocked=false;
 
@@ -10,15 +11,44 @@ public User() {
 	super();
 }
 
-public User(int idUser, String nom, String prenom, String email, String job, boolean isBlocked) {
+
+
+public User(int idUser, String password, String nom, String prenom, String email, String job, boolean isBlocked) {
 	super();
 	IdUser = idUser;
+	this.password = password;
 	this.nom = nom;
 	this.prenom = prenom;
 	this.email = email;
 	this.job = job;
 	this.isBlocked = isBlocked;
 }
+
+
+
+public int getIdUser() {
+	return IdUser;
+}
+
+
+
+public void setIdUser(int idUser) {
+	IdUser = idUser;
+}
+
+
+
+public String getPassword() {
+	return password;
+}
+
+
+
+public void setPassword(String password) {
+	this.password = password;
+}
+
+
 
 public String getNom() {
 	return nom;
@@ -44,20 +74,14 @@ public String getJob() {
 public void setJob(String job) {
 	this.job = job;
 }
-public boolean isBlocked() {
+public boolean getisBlocked() {
 	return isBlocked;
 }
 public void setBlocked(boolean isBlocked) {
 	this.isBlocked = isBlocked;
 }
 
-public int getIduser() {
-	return IdUser;
-}
 
-public void setIduser(int iduser) {
-	IdUser = iduser;
-}
 
 
 

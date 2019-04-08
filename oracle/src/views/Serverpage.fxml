@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+   <children>
+      <Label layoutX="67.0" layoutY="108.0" text="Port" AnchorPane.bottomAnchor="475.0" AnchorPane.leftAnchor="67.0" AnchorPane.rightAnchor="500.0" AnchorPane.topAnchor="108.0" />
+      <Label layoutX="328.0" layoutY="108.0" prefHeight="17.0" prefWidth="22.0" text="\@Ip" AnchorPane.bottomAnchor="475.0" AnchorPane.leftAnchor="328.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="108.0" />
+      <TextField layoutX="113.0" layoutY="104.0" />
+      <TextField layoutX="388.0" layoutY="104.0" />
+      <Button layoutX="274.0" layoutY="173.0" mnemonicParsing="false" text="Connect" AnchorPane.bottomAnchor="402.0" AnchorPane.leftAnchor="274.0" AnchorPane.rightAnchor="266.0" AnchorPane.topAnchor="173.0" />
+      <TextArea layoutX="178.0" layoutY="211.0" prefHeight="110.0" prefWidth="273.0" promptText="Text To write" AnchorPane.bottomAnchor="279.0" AnchorPane.leftAnchor="178.0" AnchorPane.rightAnchor="149.0" AnchorPane.topAnchor="211.0" />
+      <Button layoutX="278.0" layoutY="355.0" mnemonicParsing="false" text="Send" />
+      <TextArea layoutX="181.0" layoutY="392.0" prefHeight="110.0" prefWidth="273.0" promptText="Text to receive" />
+      <Label layoutX="246.0" layoutY="37.0" prefHeight="17.0" prefWidth="130.0" text="Server area">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
